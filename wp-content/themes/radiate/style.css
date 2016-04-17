@@ -461,19 +461,19 @@ a:active {
 /* =Layout
 ----------------------------------------------- */
 .inner-wrap {
-	max-width: 1218px;
+	max-width: 1300px;
 	margin: 0 auto;
 }
 #primary {
-	width: 68%;
+	width: 78%;
 	float: left;
 }
 #secondary {
-	width: 28%;
+	width: 20%;
 	float: right;
 }
 #content {
-	padding-top: 45px;
+	padding-top: 30px;
 }
 #content a:hover {
 	text-decoration: underline;

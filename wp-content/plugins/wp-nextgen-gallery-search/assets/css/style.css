@@ -1,0 +1,48 @@
+.wpnggimgcls{
+	background-color: #fff;
+	border: 1px solid #a9a9a9;
+	display: block;
+	margin: 4px 0 4px 4px;
+	padding: 4px;
+	position: relative;
+	
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px #787878;
+}
+/*image slider*/
+.thumbs,
+.gallery,
+.links,
+.slider {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: #eee;
+	margin: 20px -50px;
+}
+.thumbs {
+	padding: 10px 30px 30px 50px;
+	text-align: left;
+}
+.thumbs:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+.thumbs a {
+	display: inline-block;
+	margin: 20px 20px 0 0;
+}
+.thumbs img
+{
+	width: 180px;
+	height: 280px;
+}
+.thumbs img,
+.gallery img {
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 9px;
+}
+.thumbs a:hover img {
+	border-color: #999;
+}
